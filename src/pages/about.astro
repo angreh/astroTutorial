@@ -33,7 +33,9 @@ const textCase = "uppercase";
 </style>
 
 <BaseLayout pageTitle={pageTitle}>
-  <h2>... and my new Astro site!</h2>
+  <p transition:name="hero">Angreh</p>
+  <a href="http://localhost:4321/posts/post-1">Post</a>
+  <h2>... and my new Astro site!!!</h2>
 
   <p>
     I am working through Astro's introductory tutorial. This is the second page
@@ -49,13 +51,13 @@ const textCase = "uppercase";
 
   {finished && <p>I finished this tutorial!</p>}
 
-  {
+  <!-- {
     goal === 3 ? (
       <p>My goal is to finish in 3 days.</p>
     ) : (
       <p>My goal is not 3 days.</p>
     )
-  }
+  } -->
 
   <p>Here are a few facts about me:</p>
   <ul>
